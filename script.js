@@ -11,7 +11,7 @@ function compute()
         return false;
      }
     document.getElementById("result").innerHTML=
-        "\<br\> If you deposit \<span id=\"ph1\"\>" + principal + "\<\/span\>, \<br\>at an interest rate of " + rate + "%\<br\>You will receive an amount of " + interest + ",\<br\>in the year "+year+"\<br\>";
+        "\<br\> If you deposit \<span id=\"lb1\"\>" + principal + "\<\/span\>, \<br\>at an interest rate of " + rate + "%\<br\>You will receive an amount of " + interest + ",\<br\>in the year "+year+"\<br\>";
 }
 
 function updaterate()

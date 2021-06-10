@@ -1,3 +1,4 @@
+  
 function compute()
 {
     var principal = document.getElementById("principal").value;
@@ -12,7 +13,7 @@ function compute()
         document.getElementById("principal").focus();
     }
     else {
-        result.innerHTML = "If you deposit <b><mark>"+principal+"<\/mark><\/b>,<\/br>at an interest rate of <b><mark>"+rate+"%<\/mark><\/b>.<\/br>You will receive an amount of <b><mark>"+interest+"<\/mark><\/b>,<\/br>in the year <b><mark>"+year;+"<\/mark><\/b><\/br>";
+        result.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you deposit <b><mark>"+principal+"<\/mark><\/b>,<\/br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at an interest rate of <b><mark>"+rate+"%<\/mark><\/b>.<\/br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You will receive an amount of <b><mark>"+interest+"<\/mark><\/b>,<\/br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in the year <b><mark>"+year;+"<\/mark><\/b><\/br>";
     }
 }
 

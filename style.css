@@ -34,3 +34,7 @@ h1{color:grey;font-family:verdana; text-align:center}
   margin-top: 10px;
 }   
 
+label {
+  padding: 5px 5px 5px 0;
+  display: inline-block;
+}
